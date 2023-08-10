@@ -5,8 +5,6 @@ import { MongoClient } from 'mongodb'
 import cors from 'cors'
 import userRoutes from '../urlshortner-server/Routes/user.js'
 import urlRoutes from '../urlshortner-server/Routes/url.js'
-import { getUser, verifyToken } from './controllers/user.js';
-import shortid from 'shortid'
 import { User } from './models/usermodule.js';
 
 dotenv.config()
