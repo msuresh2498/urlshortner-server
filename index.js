@@ -33,7 +33,7 @@ app.get('/', cors(), (req, res) => {
 app.get('/urlList', async (req, res) => {
 
     try {
-        const list = await User.find({}, 'urlList'); // Retrieve only the urlList field
+        const list = await User.find({}, 'urlList'); 
         if (list) {
             return res.status(200).json({ urlList: list });
         } else {

@@ -1,4 +1,4 @@
-import express  from "express";
+import express from "express";
 import { changePassword, login, passwordReset, sendpasswordlink, signup, userData } from "../controllers/user.js";
 
 const router = express.Router();
