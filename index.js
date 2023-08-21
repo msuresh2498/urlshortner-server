@@ -3,8 +3,8 @@ import database from './db/connect.js'
 import * as dotenv from 'dotenv';
 import { MongoClient } from 'mongodb';
 import cors from 'cors';
-import userRoutes from '../urlshortner-server/Routes/user.js';
-import urlRoutes from '../urlshortner-server/Routes/url.js';
+import userRoutes from './Routes/user.js';
+import urlRoutes from './Routes/url.js';
 import { User } from './models/usermodule.js';
 
 dotenv.config()
