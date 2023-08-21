@@ -1,5 +1,5 @@
 import express from 'express';
-import database from '../urlshortner-server/db/connect.js'
+import database from './db/connect.js'
 import * as dotenv from 'dotenv';
 import { MongoClient } from 'mongodb';
 import cors from 'cors';
